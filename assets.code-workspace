@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../../../Downloads/D5-challenge-start/assets"
+		},
+		{
+			"name": "Day 5 youtube clone",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Day 5 youtube clone"
+	}
+}
