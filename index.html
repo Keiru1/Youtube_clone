@@ -15,6 +15,9 @@
             font-family: 'Roboto', sans-serif;
         }
 
+        .main {
+            width: 100%;
+        }
 
         .topbar {
             height: 8vh;
@@ -24,27 +27,25 @@
         }
 
         .content {
-            display: flex;
-            width:100px;
-            height:100px;
-            margin:20px;
-
-
+            height: 100%;
         }
 
-        #flex-container {
+        #flex-container1 {
             display: flex;
-            width: 100px;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
-            align-content: flex-end;
         }
 
-        .flex-item {
-            width: 100px;
-            height: 100px;
-            Background-color: orange;
-            color: white;
+        #flex-container2 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        div img {
+
+            width: 450px;
+            height: 200px;
             margin: 5px;
             padding: 10px;
 
@@ -109,6 +110,12 @@
             display: flex;
             align-items: center;
         }
+
+        .epicode_logo{
+            width:30px;
+            height:30px;
+            margin:5px;
+        }
     </style>
 </head>
 <body>
@@ -153,18 +160,53 @@
             </div>
         </div>
     </div>
-    <div class="content" id="flex-container">CONTENT
-        <div class="flex-item">1</div>
-        <div class="flex-item">2</div>
-        <div class="flex-item">3</div>
-        <div class="flex-item">4</div>
-        <div class="flex-item">5</div>
-        <div class="flex-item">6</div>
+    <div class="content">CONTENT >
+        <div id="flex-container1">
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+                <div><img class="epicode_logo" src="assets/epicode-logo.png"></div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+                <div><img class="epicode_logo" src="assets/epicode-logo.png"></div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+                <div><img class="epicode_logo" src="assets/epicode-logo.png">
+                </div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
 
 
+        </div>
+        <br>
+        <br>
+        <div id="flex-container2">
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+                <div><img class="epicode_logo" src="assets/epicode-logo.png"></div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+                <div><img class="epicode_logo" src="assets/epicode-logo.png"></div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
+            <div>
+                <img class="flex-child" src="assets/epicode_thumb.png">
+               <div><img class="epicode_logo" src="assets/epicode-logo.png"></div>
+                <p>Title</p>
+                <p> Description</p>
+            </div>
+        </div>
     </div>
-
-
 </div>
 <script
         type="module"
